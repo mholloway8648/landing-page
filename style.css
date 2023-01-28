@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 15px;
+}
+
