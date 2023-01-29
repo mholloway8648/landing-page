@@ -23,3 +23,47 @@ a:link {
     padding: 15px;
 }
 
+.one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.text-container .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.text-container .sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.image-container {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex: 0 1 auto;
+    padding: 50px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    
+}
+
