@@ -59,7 +59,7 @@ a:link {
     padding: 50px;
 }
 
-button {
+.one button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
@@ -125,4 +125,34 @@ button {
     align-self: flex-end;
     font-weight: bold;
     padding-right: 500px;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 150px;
+}
+
+.four .text-container {
+    flex-direction: column;
+    width: 750px;
+    flex-wrap: nowrap;
+}
+
+.four .main-text {
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.four .sub-text {
+    color: #f9faf8;
+}
+
+.four button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
 }
