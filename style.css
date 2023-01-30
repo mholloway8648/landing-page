@@ -99,3 +99,30 @@ button {
     padding: 50px;
 }
 
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.three .quote {
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.three .name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 500px;
+}
